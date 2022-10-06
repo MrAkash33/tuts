@@ -64,3 +64,12 @@ if(checkIf){
 }else{
     console.log("not have two oo")
 }
+
+// console.log(itCompanies.sort())
+// console.log(itCompanies.slice(0,3))
+// console.log(itCompanies.reverse())
+// console.log(itCompanies.slice(0,3))
+// console.log(itCompanies[3])
+// itCompanies.shift()
+itCompanies.splice(3,1)
+console.log(itCompanies)
