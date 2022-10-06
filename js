@@ -73,3 +73,63 @@ if(checkIf){
 // itCompanies.shift()
 itCompanies.splice(3,1)
 console.log(itCompanies)
+
+// console.log("Heloo",webTechs)
+// console.log("Heloo",countries)
+
+// console.log(webTechs.concat(countries))
+
+// let text = 'I love teaching and empowering people. I teach HTML, CSS, JS, React, Python.'
+// const words = text.split(' ')
+// console.log(words,words.length)
+
+// const shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey']
+
+// shoppingCart.unshift('Meat')
+// shoppingCart.push('Sugar')
+// // shoppingCart.splice(4,4)
+// shoppingCart.splice(3,3,'Modify Green Tea')
+// console.log(shoppingCart)
+
+// const countries = [
+//     'Albania',
+//     'Bolivia',
+//     'Canada',
+//     'Denmark',
+//     'Ethiopia',
+//     'Finland',
+//     'Germany',
+//     'Hungary',
+//     'Ireland',
+//     'Japan',
+//     'Kenya',
+//   ]
+
+//   const checkArray = countries.includes('Ethiopia');
+//   if(checkArray){
+//     console.log('ETHIOPIA')
+//   }
+
+// const check2 = webTechs.includes('SAAS')
+
+// if(check2){
+//     console.log("no")
+// }else{
+//     console.log(webTechs)
+// }
+
+// const frontEnd = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+// const backEnd = ['Node', 'Express', 'MongoDB']
+
+// const fullstack = frontEnd.concat(backEnd)
+// console.log(fullstack)
+
+const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24] 
+
+const sort = ages.sort()
+
+console.log(sort,"ssort")
+
+for(var i = 0; sort.length < 0 ; i++){
+    console.log(sort[i] ,"Akash")
+}
