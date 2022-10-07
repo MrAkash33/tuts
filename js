@@ -133,3 +133,78 @@ console.log(sort,"ssort")
 for(var i = 0; sort.length < 0 ; i++){
     console.log(sort[i] ,"Akash")
 }
+   var disabl =  false
+        function val1(e){
+            const d = document.getElementById("value1").value;
+            return d.length
+        }
+        function val2(e){
+           const dd = document.getElementById("value2").value;
+            return dd.length
+        }
+        function val3(e){
+            const cc = document.getElementById("value3").value;
+            return cc.length
+        }        
+        setInterval(()=>{
+            if(val1() > 0 && val2() > 0 && val3() > 0){
+                document.getElementById("saved").removeAttribute("disabled");
+            }
+        },1000)
+
+            let text = 'I love teaching and empowering people. I teach HTML, CSS, JS, React, Python.'
+            const words = text.split(' ');
+            console.log(words)
+            console.log(words.length)
+
+            const shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey']
+
+            shoppingCart.unshift('Meat')
+            shoppingCart.push('Sugar')
+            shoppingCart.splice(4,0,'Cream')
+            console.log(shoppingCart);
+
+
+            const countries = [
+                'Afghanistan',
+                'Albania',
+                'Algeria',
+                'Andorra',
+                'Angola',
+                'Antigua and Barbuda',
+                'Argentina',
+                'Armenia',
+                'Australia',
+                'Austria',
+                'Azerbaijan',
+                'Bahamas',
+                'Bahrain',
+                'Bangladesh',
+                'Barbados',
+                'Zimbabwe'
+                ]
+                console.log(countries.length)
+                if(countries.includes('Ethisopia')){
+                    console.log("Yes Exist")
+                }
+                if(countries.includes('Finland')){
+                    console.log("finland")
+                }
+                const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+                // console.log(ages.sort())
+                // console.log(ages[0],"Here is Min Age")
+                // console.log(ages[ages.length -1],"Here is Max Age")
+                // console.log(countries.slice(0,10))
+                // console.log(countries[countries.length-1/2])
+                // const middleCountry = countries[Math.floor(countries.length/2)];
+                // console.log(middleCountry)
+                // const middleIndex = Math.ceil(countries.length /2)
+                // const half = countries.splice(0,middleIndex)
+                // const Otherhalf = countries.splice(-middleIndex)
+                // console.log(half,"Break",Otherhalf)
+                // console.log(middleIndex,"middleIndex")
+                const firstDigit = Math.ceil(countries.length / 3);
+                const firstPart =  countries.splice(-firstDigit)
+                const secondPart = countries.splice(-firstDigit)
+                const thirdPart = countries
+                console.log(firstDigit,secondPart,thirdPart)
