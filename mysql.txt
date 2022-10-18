@@ -1,3 +1,20 @@
+-- DDL 
+-- ALTER,DROP,CREATE,TRUNCATE
+
+-- DML
+-- INSERT,UPDATE,DELETE
+
+-- DQL
+-- SELECT
+
+-- TCL
+-- COMMIT,ROLLBACK,SAVEPOINT
+
+-- DCL
+-- GRANT,REVOKE
+
+
+
 -- insert into newTable (id,name) values(4,'rahul');
 -- insert into newTable values(5,'RMANM','Op');
 -- SELECT * from newTable;
@@ -23,8 +40,17 @@
 -- create database man;
 -- show databases;
 -- drop database man;
+-- truncate table oldtable; delete all rows from table but not structure
 -- use man;
 -- create table tableOne(select * from akash.newTable);
  -- INSERT INTO man.Table1 SELECT * from akash.newTable;
 -- use akash;
 -- select * from man.tableOne;
+-- select * from oldtable;
+-- select email from person where email is Null;
+-- select email from person where email is NOT Null;
+-- select * from person;
+-- UPDATE person set email =  'akash@real11.com' where id =1;
+-- update person set gender = "male"; all record updated
+-- select * from person limit 5;  this is for limit
+-- select Min(id) as Lowid from person;
