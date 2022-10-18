@@ -1,0 +1,19 @@
+-- insert into newTable (id,name) values(4,'rahul');
+-- insert into newTable values(5,'RMANM','Op');
+-- SELECT * from newTable;
+-- show databases;
+-- use akash;
+-- select * from newTable where name='rahul';
+-- select * from newTable where name='rahul' or name='akash';
+-- select name from newTable;
+-- select * from newTable order by name 
+-- select * from newTable order by name desc;
+-- alter table newTable add column MobNumber int(9);
+-- select * from newTable;
+-- show columns from newTable;
+-- describe newTable;
+-- insert into newTable values(5,'gayas','Rj',01234567891);
+-- alter table newTable drop column MobNumber;
+-- alter table newTable add column ss int(44);
+-- alter table newTable rename column ss to Hello;
+-- alter table newTable modify column Hello varchar(22);
