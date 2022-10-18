@@ -14,6 +14,8 @@
 -- GRANT,REVOKE
 
 
+-- select @@sql_mode;                                                                                                                 
+-- set sql_mode = '';
 
 -- insert into newTable (id,name) values(4,'rahul');
 -- insert into newTable values(5,'RMANM','Op');
@@ -54,3 +56,13 @@
 -- update person set gender = "male"; all record updated
 -- select * from person limit 5;  this is for limit
 -- select Min(id) as Lowid from person;
+-- select count(email) from person where gender = "male";
+-- select sum(id) from person;
+-- select * from person;      
+-- delete from person where id = 1;
+-- select * from person where email LIKE 'a%'; search from end "a";
+-- select * from person where email LIKE '%a'; search from start "a";
+-- select * from person where email LIKE '%a%'; search from all string;
+-- select * from person where email LIKE '_a%'; search from first string a;
+-- select * from person where email LIKE '__a%'; search from second string aa;
+-- select * from person where email LIKE 'a_%'; search from first end string a;
