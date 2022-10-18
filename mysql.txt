@@ -16,4 +16,15 @@
 -- alter table newTable drop column MobNumber;
 -- alter table newTable add column ss int(44);
 -- alter table newTable rename column ss to Hello;
--- alter table newTable modify column Hello varchar(22);
+-- alter table newTable modify column Hello varchar(22);  modify with data types
+-- show tables;
+-- select * from oldtable;
+-- delete from oldtable where name = 'Akash'; deleted one row
+-- create database man;
+-- show databases;
+-- drop database man;
+-- use man;
+-- create table tableOne(select * from akash.newTable);
+ -- INSERT INTO man.Table1 SELECT * from akash.newTable;
+-- use akash;
+-- select * from man.tableOne;
