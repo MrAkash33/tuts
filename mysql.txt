@@ -132,4 +132,27 @@
 -- insert into users(name,age,courses,city) values('akash',22,)
 -- describe users
 
+-- create database demo;
+-- use demo;
+-- alter table newTable add column ss int(44);
+-- create table one(id int not null auto_increment, name varchar(55) not null,primary key(id));
+-- show databases;
+-- describe techteam;
+-- use demo;
+-- alter table one add column designation varchar(55);
 
+-- insert into one (name,designation) values('udit','Tester'),('himanshu','dev');
+-- select * from one;
+
+-- create table BA(daId int not null auto_increment,name varchar(55) not null, designation varchar(55), primary key(daId));
+-- create table CA(mId int not null auto_increment,name varchar(55) not null, designation varchar(55), primary key(mId));
+-- insert into BA(name,designation) values ('Deepak','Email Marketing'),('Aman','CSE'),('Hemant','SEO'),('Ashish','Graphics');
+-- insert into CA(name,designation) values ('Abhishek','Da'),('Mahip','Da'),('Raj','Da'),('Dharmendra','Da');
+-- alter table one add column mId int(55);
+-- describe techteam;
+-- alter table Ca add column daId int(55) not null;
+-- alter table users add CONSTRAINT foreign key(courses) references courses(cid)
+-- alter table one add foreign key(mId) references Ca(mId);
+-- describe Marketing;
+-- alter table techteam modify column mId foreign key(mId) refrences Marketing(mId);
+-- describe one;
