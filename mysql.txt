@@ -66,3 +66,70 @@
 -- select * from person where email LIKE '_a%'; search from first string a;
 -- select * from person where email LIKE '__a%'; search from second string aa;
 -- select * from person where email LIKE 'a_%'; search from first end string a;
+-- SELECT * FROM Products WHERE Price BETWEEN 10 AND 30;
+-- select * from person where REGEXP  "khan$ | poor";
+
+-- NOT NULL
+-- UNIQUE
+-- DEFAULT
+-- CHECK
+
+-- PRIMARY KEY
+--     -PRIMARY KEY ALWAYS HAS UNIQUE DATA.
+--     -CANNOT HAVE NULL VALUE.
+--     -A TABLE CAN CONTAIN ONLY ONE PRIMARY KEY CONSTAINTS.
+-- FOREIGN KEY
+
+
+-- use akash;
+-- create table user( id int NOT NULL auto_increment, name varchar(50) NOT NULL , age int NOT Null,city varchar(10) not null, primary key(id));
+-- select * from user;
+-- create database newdb;
+-- use newdb;
+-- create table city(cid int not null auto_increment,cityname varchar(30) not null, primary key(cid));
+-- select * from city;
+-- insert into city(cityname)values('agra'),('delhi'),('patna'),('jaipur'),('noida');
+-- create table personal (
+-- 	id int not null,
+--     name varchar(20) not null,
+--     percentage int not null,
+--     age int not null,
+--     gender varchar(40) not null,
+--     city int not null,
+--     primary key (id),
+--     foreign key(city) references city(cid)
+-- );
+-- insert into personal(id,name,percentage,age,gender,city) values(5,'ayush',89,19,'m',4),(6,'aman',89,19,'m',5),(7,'naman',89,19,'m',3),(8,'udit',89,19,'m',1);
+
+-- select * from personal;
+-- select * from city;
+-- describe personal;
+
+-- INNER JOIN
+-- select * from personal INNER JOIN city
+-- ON personal.city =city.cid;
+
+-- select p.id,p.name,p.age,p.gender,c.cityname
+-- from personal p JOIN city c
+-- ON p.city =c.cid
+-- where p.id = 1;
+
+-- select * from personal p left join city c 
+-- on p.city = c.cid
+-- select cityname from personal Cross Join city limit 3; create both table combinations
+
+
+-- Join three table
+
+-- create table users (id int not null auto_increment, name varchar(20), age int not null,courses int not null, city int not null ,primary key(id));
+-- alter table users add foreign key(city) references village(vid);
+-- alter table users add foreign key(courses) references courses(cid)
+
+-- create table village(vid int not null, villageName varchar(55));
+-- alter table village add primary key(vid);
+-- create table courses(cid int not null auto_increment,courses varchar(55) not null ,primary key(cid));
+
+-- insert into users(name,age,courses,city) values('akash',22,)
+-- describe users
+
+
