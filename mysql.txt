@@ -156,3 +156,33 @@
 -- describe Marketing;
 -- alter table techteam modify column mId foreign key(mId) refrences Marketing(mId);
 -- describe one;
+-- use demo;
+-- drop database demo;
+-- create database demo;
+-- use demo;
+-- create table table1(id int not null auto_increment ,name varchar(55) not null, age int not null, primary key(id));
+-- insert into table1 (name) values ('akash'),('himanshu'),('mahp');
+-- create table table2(infoid int not null auto_increment, designation varchar(55) , primary key(infoid));
+-- alter table table1 add column (infoid int(55) not null);
+ -- insert into table2 (designation) values ('developer'),('fullstack'),('da');
+-- alter table table1 add foreign key(infoid) references table2(infoid);
+-- select * from table
+
+-- create database ankit;
+-- use ankit;
+
+-- create table table1 (id int not null auto_increment primary key,name varchar(55) not null);
+-- create table table2 (vid int not null auto_increment,age int not null, primary key(vid)) ;
+-- alter table table2 add column userid int(55);
+-- alter table table2 add foreign key(userid) references table1(id);
+-- drop table table2;
+-- drop database ankit;
+
+-- create database ankit;
+-- use ankit;
+-- create table table1 (id int not null auto_increment primary key,name varchar(55) not null);
+-- create table table2 (vid int not null auto_increment,age int not null, primary key(vid)) ;
+-- select * from table2
+
+-- describe table2
+
