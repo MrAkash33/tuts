@@ -79,7 +79,8 @@
 --     -CANNOT HAVE NULL VALUE.
 --     -A TABLE CAN CONTAIN ONLY ONE PRIMARY KEY CONSTAINTS.
 -- FOREIGN KEY
-
+       -foreign key is a column where in other table this foreign is primary key
+       - the table with foreign key is called child table
 
 -- use akash;
 -- create table user( id int NOT NULL auto_increment, name varchar(50) NOT NULL , age int NOT Null,city varchar(10) not null, primary key(id));
