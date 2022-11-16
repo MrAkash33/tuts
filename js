@@ -208,3 +208,20 @@ for(var i = 0; sort.length < 0 ; i++){
                 const secondPart = countries.splice(-firstDigit)
                 const thirdPart = countries
                 console.log(firstDigit,secondPart,thirdPart)
+                
+                
+                
+                
+const array =[9,2,34,6,50,21,4]
+const  insertNum = 100
+const postn = 2;
+for(var i = array.length-1 ; i >= 0 ; i --){
+    if(i >= postn){
+       array[i+1] = array[i]
+       if(i == postn){
+           array[i] = insertNum
+       }
+    }
+}
+console.log(array)
+//[ 9, 2, 100, 34, 6, 50, 21, 4 ]
