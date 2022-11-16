@@ -225,3 +225,40 @@ for(var i = array.length-1 ; i >= 0 ; i --){
 }
 console.log(array)
 //[ 9, 2, 100, 34, 6, 50, 21, 4 ]
+
+
+//const newArray = array.splice(3,0,100)
+//console.log(array)
+
+// const newArray = [9,2,34,6,50,21,4]
+
+// for(var i = 3; newArray.length-1 >i ; i++){
+//     newArray[i] = newArray[i+1]
+// }
+// console.log(newArray)
+
+// const array = [12,34,1,2,4,67,45,27]
+// const findNum = 21;
+// for (var i = 0; array.length > i ; i++){
+//     if(array[i] == findNum){
+//         console.log("exists")
+//         break;
+//     }else{
+//         console.log("does not find data")
+//         break;
+//     }
+// }
+
+const array1 = [12,34,1,2,4,67,45,27]
+const array2 = [0,4,12,12]
+const array3 = [];
+
+for(var i= 0; array1.length > i; i++){
+    array3[i] = array1[i]
+}
+ for(var j =0 ; array2.length > j;j++){
+        array3[array1.length+j] = array2[j]
+    }
+console.log(array3.reverse())
+
+console.log([...array1,...array2])
