@@ -186,4 +186,6 @@
 -- select * from table2
 
 -- describe table2
-
+-- show columns from users
+-- create table s2 (id int,created TIMESTAMP DEFAULT CURRENT_TIMESTAMP() )
+-- insert into s2(id) values(1);
