@@ -35,6 +35,7 @@
 -- alter table newTable drop column MobNumber;
 -- alter table newTable add column ss int(44);
 -- alter table newTable rename column ss to Hello;
+-- ALTER TABLE `live_score` CHANGE `rrr` `required_run_rate` VARCHAR(20) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL;
 -- alter table newTable modify column Hello varchar(22);  modify with data types
 -- show tables;
 -- select * from oldtable;
